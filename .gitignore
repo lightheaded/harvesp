@@ -1,0 +1,29 @@
+# Secrets. Never commit them.
+secrets.yaml
+secrets.yml
+.env
+*.env
+.env.*
+!.env.example
+
+# ESPHome and PlatformIO build output
+.esphome/
+.pioenvs/
+.piolibdeps/
+.pio/
+build/
+*.bin
+*.elf
+*.map
+
+# Local files that are not for the repository
+*.local.*
+.DS_Store
+Thumbs.db
+__pycache__/
+
+# CAD backups and lock files
+*.bak
+*-backups/
+*.lck
+~*

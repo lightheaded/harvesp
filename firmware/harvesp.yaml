@@ -1,0 +1,125 @@
+# HarvESP firmware for PCB rev A.
+#
+# For the breadboard prototype, use harvesp-debug.yaml. The pins are different.
+#
+# PCB rev A pins:
+#   - GPIO10 drives the LED of the PC817 optocoupler (U1) through 330 Ω.
+#     This is the fallback "clicker".
+#   - GPIO20, GPIO21, GPIO4 and GPIO5 connect to the A side (3.3 V) of the
+#     TXS0104E level shifter (U2). The B side (5 V) connects to the four
+#     panel signal lines on pins 3 to 6 of the passthrough connector:
+#       GPIO20 -> A1 -> J3
+#       GPIO21 -> A2 -> J4
+#       GPIO4  -> A3 -> J5
+#       GPIO5  -> A4 -> J6
+#     These four pins are INPUTS ONLY. Never configure them as outputs and
+#     never enable a pull-up on them. The firmware must not drive the panel bus.
+#
+# KNOWN REV A ISSUE: GPIO21 is UART0 TX. The ROM bootloader prints on it at
+# boot, before this firmware starts. The TXS0104E is bidirectional, so this
+# output gets to a panel line (J4). The firmware cannot stop it. Read
+# docs/findings.md, "Rev A known issues".
+#
+# Before you build:
+#   1. Copy secrets.yaml.example to secrets.yaml in this directory.
+#   2. Put your own values in secrets.yaml. Git ignores that file.
+#   3. Run: esphome run harvesp.yaml
+
+substitutions:
+  name: harvesp
+  friendly_name: HarvESP
+  # Fallback clicker: GPIO10 -> 330 Ω -> PC817 (U1) LED.
+  clicker_pin: GPIO10
+  # Panel bus lines through the TXS0104E (U2). Inputs only.
+  bus1_pin: GPIO20  # A1 -> J3
+  bus2_pin: GPIO21  # A2 -> J4 (UART0 TX, see the known issue above)
+  bus3_pin: GPIO4   # A3 -> J5
+  bus4_pin: GPIO5   # A4 -> J6
+  # Time that the clicker holds the panel button.
+  click_time: 500ms
+
+esphome:
+  name: ${name}
+  friendly_name: ${friendly_name}
+
+esp32:
+  board: esp32-c3-devkitm-1
+  framework:
+    type: arduino
+
+# Log on the USB Serial/JTAG port. This keeps ESPHome off UART0 (GPIO21).
+logger:
+  hardware_uart: USB_SERIAL_JTAG
+
+api:
+  encryption:
+    key: !secret api_encryption_key
+
+ota:
+  - platform: esphome
+    password: !secret ota_password
+
+# This firmware has no fallback access point, no captive portal and no web
+# server.
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+  # Lower transmit power and light power save decrease the current peaks.
+  # The board gets its power from the panel supply.
+  output_power: 8.5dB
+  power_save_mode: light
+
+output:
+  - id: opto_clicker
+    platform: gpio
+    pin: ${clicker_pin}
+
+switch:
+  - id: sauna_switch
+    platform: output
+    name: "Sauna Switch"
+    output: opto_clicker
+    # Release the button after the click time.
+    on_turn_on:
+      - delay: ${click_time}
+      - switch.turn_off: sauna_switch
+
+button:
+  - platform: template
+    name: "Sauna Button"
+    id: sauna_button
+    on_press:
+      - switch.turn_on: sauna_switch
+
+# The four panel bus lines. INPUT only: no pull-up, no pull-down, no output.
+binary_sensor:
+  - platform: gpio
+    pin:
+      number: ${bus1_pin}
+      mode: INPUT
+    name: "Bus Line 1 (J3)"
+    id: bus_line_1
+  - platform: gpio
+    pin:
+      number: ${bus2_pin}
+      mode: INPUT
+    name: "Bus Line 2 (J4)"
+    id: bus_line_2
+  - platform: gpio
+    pin:
+      number: ${bus3_pin}
+      mode: INPUT
+    name: "Bus Line 3 (J5)"
+    id: bus_line_3
+  - platform: gpio
+    pin:
+      number: ${bus4_pin}
+      mode: INPUT
+    name: "Bus Line 4 (J6)"
+    id: bus_line_4
+
+sensor:
+  - platform: wifi_signal
+    name: "WiFi Signal RSSI"
+    id: wifi_rssi
+    update_interval: 60s

@@ -1,0 +1,6 @@
+#!/bin/sh
+# HarvESP post-merge: no checks of its own. It runs the global post-merge hook (for
+# example git-lfs), because core.hooksPath=.githooks hides that hook.
+top=$(git rev-parse --show-toplevel) || exit 2
+. "$top/.githooks/_chain.sh"
+chain_hook post-merge "$@"

@@ -1,0 +1,23 @@
+#!/bin/sh
+# HarvESP pre-push: scan each pushed commit (identity, signature, message and
+# files). Then run the global pre-push hook with the same stdin.
+top=$(git rev-parse --show-toplevel) || exit 2
+tmp=$(mktemp) || exit 2
+cat >"$tmp"
+
+fail=0
+while read -r _lref lsha _rref rsha; do
+	[ -n "$lsha" ] || continue
+	"$top/scripts/privacy-guard.sh" --range "$lsha" "${rsha:-0}" || fail=1
+done <"$tmp"
+if [ "$fail" -ne 0 ]; then
+	rm -f "$tmp"
+	exit 1
+fi
+
+# Replay the buffered stdin to the global hook. The open file descriptor
+# stays readable after the file is removed.
+exec <"$tmp"
+rm -f "$tmp"
+. "$top/.githooks/_chain.sh"
+chain_hook pre-push "$@"

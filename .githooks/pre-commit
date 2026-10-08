@@ -1,0 +1,8 @@
+#!/bin/sh
+# HarvESP pre-commit: check the identity and scan the staged changes.
+# Then run the global pre-commit hook.
+top=$(git rev-parse --show-toplevel) || exit 2
+"$top/scripts/privacy-guard.sh" --identity || exit 1
+"$top/scripts/privacy-guard.sh" --staged || exit 1
+. "$top/.githooks/_chain.sh"
+chain_hook pre-commit "$@"

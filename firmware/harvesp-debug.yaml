@@ -1,0 +1,112 @@
+# HarvESP debug firmware - BREADBOARD PROTOTYPE.
+#
+# This file is for the breadboard prototype, not for the PCB.
+# For PCB rev A, use harvesp.yaml. The pins are different.
+#
+# Breadboard pins:
+#   - GPIO21 drives the LED of the PC817 optocoupler through a 330 Ω resistor.
+#     The optocoupler is the fallback "clicker". It pushes the panel button.
+#   - GPIO5 reads the status line of the panel.
+#
+# Before you build:
+#   1. Copy secrets.yaml.example to secrets.yaml in this directory.
+#   2. Put your own values in secrets.yaml. Git ignores that file.
+#   3. Run: esphome run harvesp-debug.yaml
+#
+# Change the pins in "substitutions" if your wiring is different.
+
+substitutions:
+  name: harvesp
+  friendly_name: HarvESP
+  # Fallback clicker: GPIO21 -> 330 Ω -> PC817 LED.
+  clicker_pin: GPIO21
+  # Status line of the panel.
+  status_pin: GPIO5
+  # Time that the clicker holds the panel button.
+  click_time: 500ms
+
+esphome:
+  name: ${name}
+  friendly_name: ${friendly_name}
+
+esp32:
+  board: esp32-c3-devkitm-1
+  framework:
+    type: arduino
+
+logger:
+
+api:
+  encryption:
+    key: !secret api_encryption_key
+
+ota:
+  - platform: esphome
+    password: !secret ota_password
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+  # Fallback access point if the device cannot connect to Wi-Fi.
+  ap:
+    ssid: "${friendly_name} Fallback"
+    password: !secret fallback_ap_password
+
+captive_portal:
+
+web_server:
+  port: 80
+
+output:
+  - id: opto_clicker
+    platform: gpio
+    pin: ${clicker_pin}
+
+switch:
+  - id: sauna_switch
+    platform: output
+    name: "Sauna Switch"
+    output: opto_clicker
+    # Release the button after the click time.
+    on_turn_on:
+      - delay: ${click_time}
+      - switch.turn_off: sauna_switch
+
+button:
+  - platform: template
+    name: "Sauna Button"
+    id: sauna_button
+    on_press:
+      - switch.turn_on: sauna_switch
+
+binary_sensor:
+  - platform: gpio
+    pin:
+      number: ${status_pin}
+      mode: INPUT
+    name: "Sauna Status"
+    id: sauna_status
+    filters:
+      - delayed_on: 50ms
+      - delayed_off: 50ms
+
+sensor:
+  - platform: wifi_signal
+    name: "WiFi Signal RSSI"
+    id: wifi_rssi
+    update_interval: 5s
+  - platform: wifi_signal
+    name: "WiFi Signal Strength"
+    id: wifi_strength
+    update_interval: 5s
+    unit_of_measurement: "%"
+    filters:
+      - lambda: |-
+          // Convert RSSI (dBm) to an approximate percentage.
+          if (x <= -100) {
+            return 0;
+          } else if (x >= -50) {
+            return 100;
+          } else {
+            return 2 * (x + 100);
+          }
