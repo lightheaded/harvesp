@@ -27,3 +27,6 @@ __pycache__/
 *-backups/
 *.lck
 ~*
+
+# Scratch area for tool trials and autorouter runs
+local/

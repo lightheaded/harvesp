@@ -1,0 +1,20 @@
+EasyEDA Pro 3.2.149 PCB DRC, harvesp rev A, exported 2026-10-09
+17 violations
+
+- [Connection Error] net GND: (GND): H4_1  — {obj1} is disconnected from other objects of the same network
+- [Connection Error] net GND: (GND): H1_2  — {obj1} is disconnected from other objects of the same network
+- [Connection Error] net GND: (GND): C1_2  — {obj1} is disconnected from other objects of the same network
+- [Connection Error] net GND: (GND): C2_2  — {obj1} is disconnected from other objects of the same network
+- [Connection Error] net GND: (GND): H2_2  — {obj1} is disconnected from other objects of the same network
+- [Connection Error] net GND: (GND): C3_2  — {obj1} is disconnected from other objects of the same network
+- [Connection Error] net GND: (GND): U2_7  — {obj1} is disconnected from other objects of the same network
+- [Connection Error] net GND: (GND): P1_2  — {obj1} is disconnected from other objects of the same network
+- [Connection Error] net GND: (GND): U1_2  — {obj1} is disconnected from other objects of the same network
+- [Connection Error] net ESP_GP4: (ESP_GP4): U2_4  — {obj1} is disconnected from other objects of the same network
+- [Connection Error] net ESP_GP4: (ESP_GP4): P1_4  — {obj1} is disconnected from other objects of the same network
+- [Connection Error] net ESP_GP10: (ESP_GP10): P2_6  — {obj1} is disconnected from other objects of the same network
+- [Connection Error] net ESP_GP10: (ESP_GP10): R1_2  — {obj1} is disconnected from other objects of the same network
+- [Connection Error] net ESP_GP5: (ESP_GP5): P2_1  — {obj1} is disconnected from other objects of the same network
+- [Connection Error] net ESP_GP5: (ESP_GP5): U2_5  — {obj1} is disconnected from other objects of the same network
+- [Connection Error] net $1N1895: ($1N1895): U1_1  — {obj1} is disconnected from other objects of the same network
+- [Connection Error] net $1N1895: ($1N1895): R1_1  — {obj1} is disconnected from other objects of the same network

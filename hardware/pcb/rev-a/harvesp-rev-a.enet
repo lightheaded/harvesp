@@ -1,0 +1,1219 @@
+{
+ "version": "2.0.0",
+ "components": {
+  "gge3": {
+   "props": {
+    "Add into BOM": "yes",
+    "Convert to PCB": "yes",
+    "Symbol": "4d17403a1f894b00870799b3cba92cdc",
+    "Designator": "P1",
+    "Manufacturer Part": "ESP32_HEADER_1",
+    "Name": "={Manufacturer Part}",
+    "Device": "df2ff914b9464ba6bf14987bc0c84be1",
+    "Reuse Block": "",
+    "Group ID": "",
+    "Channel ID": "$1e452",
+    "Unique ID": "gge3",
+    "LCSC Part Name": "1x8P 间距:2.54mm 直插",
+    "Supplier Part": "C27438",
+    "Manufacturer": "BOOMELE(博穆精密)",
+    "Supplier Footprint": "插件,P=2.54mm",
+    "JLCPCB Part Class": "Extended Part",
+    "Supplier": "LCSC",
+    "Footprint": "ce60b89aa5214fb18a5d2d2e876308e2",
+    "3D Model": "6ab1dac21d924c3d8eea0dfa46d42ff5",
+    "3D Model Title": "HDR-TH_8P-P2.54-V-F",
+    "3D Model Transform": "819.723,98.425,0,0,0,0,0,0,-118.11",
+    "Holes Structure": "1x8P",
+    "Pitch": "2.54mm",
+    "Row Spacing": "-",
+    "Circular Hole / Square Hole": "Square Hole",
+    "Mounting Type": "Through Hole",
+    "Number of Rows": "1",
+    "Number of Positions": "8P",
+    "Current Rating": "3A",
+    "Holes Direction": "Top",
+    "Insulation Height": "8.5mm",
+    "Contact Material": "Brass",
+    "Contact Plating": "Gold",
+    "Operating Temperature": "-55℃~+105℃",
+    "PIN Length": "3.2mm",
+    "Description": "Holes Structure:1x8P Pitch:2.54mm Row Spacing:- Circular Hole / Square Hole:Square Hole Mounting Type:Through Hole Number of Rows:1 Number of Positions:8P Current Rating:3A Holes Direction:Top Insulation Height:8.5mm Contact Material:Brass Contact Plating",
+    "DeviceName": "2.54-1*8P母环保",
+    "FootprintName": "HDR-TH_8P-P2.54-V-F"
+   },
+   "pinInfoMap": {
+    "1": {
+     "name": "1",
+     "number": "1",
+     "net": "+5V",
+     "props": {
+      "Pin Number": "1"
+     }
+    },
+    "2": {
+     "name": "2",
+     "number": "2",
+     "net": "GND",
+     "props": {
+      "Pin Number": "2"
+     }
+    },
+    "3": {
+     "name": "3",
+     "number": "3",
+     "net": "3V3",
+     "props": {
+      "Pin Number": "3"
+     }
+    },
+    "4": {
+     "name": "4",
+     "number": "4",
+     "net": "ESP_GP4",
+     "props": {
+      "Pin Number": "4"
+     }
+    },
+    "5": {
+     "name": "5",
+     "number": "5",
+     "net": "ESP_GP3",
+     "props": {
+      "Pin Number": "5"
+     }
+    },
+    "6": {
+     "name": "6",
+     "number": "6",
+     "net": "ESP_GP2",
+     "props": {
+      "Pin Number": "6"
+     }
+    },
+    "7": {
+     "name": "7",
+     "number": "7",
+     "net": "ESP_GP1",
+     "props": {
+      "Pin Number": "7"
+     }
+    },
+    "8": {
+     "name": "8",
+     "number": "8",
+     "net": "ESP_GP0",
+     "props": {
+      "Pin Number": "8"
+     }
+    }
+   }
+  },
+  "gge4": {
+   "props": {
+    "Add into BOM": "yes",
+    "Convert to PCB": "yes",
+    "Symbol": "4d17403a1f894b00870799b3cba92cdc",
+    "Designator": "P2",
+    "Manufacturer Part": "ESP32_HEADER_2",
+    "Name": "={Manufacturer Part}",
+    "Device": "df2ff914b9464ba6bf14987bc0c84be1",
+    "Reuse Block": "",
+    "Group ID": "",
+    "Channel ID": "$1e792",
+    "Unique ID": "gge4",
+    "LCSC Part Name": "1x8P 间距:2.54mm 直插",
+    "Supplier Part": "C27438",
+    "Manufacturer": "BOOMELE(博穆精密)",
+    "Supplier Footprint": "插件,P=2.54mm",
+    "JLCPCB Part Class": "Extended Part",
+    "Supplier": "LCSC",
+    "Footprint": "ce60b89aa5214fb18a5d2d2e876308e2",
+    "3D Model": "6ab1dac21d924c3d8eea0dfa46d42ff5",
+    "3D Model Title": "HDR-TH_8P-P2.54-V-F",
+    "3D Model Transform": "819.723,98.425,0,0,0,0,0,0,-118.11",
+    "Holes Structure": "1x8P",
+    "Pitch": "2.54mm",
+    "Row Spacing": "-",
+    "Circular Hole / Square Hole": "Square Hole",
+    "Mounting Type": "Through Hole",
+    "Number of Rows": "1",
+    "Number of Positions": "8P",
+    "Current Rating": "3A",
+    "Holes Direction": "Top",
+    "Insulation Height": "8.5mm",
+    "Contact Material": "Brass",
+    "Contact Plating": "Gold",
+    "Operating Temperature": "-55℃~+105℃",
+    "PIN Length": "3.2mm",
+    "Description": "Holes Structure:1x8P Pitch:2.54mm Row Spacing:- Circular Hole / Square Hole:Square Hole Mounting Type:Through Hole Number of Rows:1 Number of Positions:8P Current Rating:3A Holes Direction:Top Insulation Height:8.5mm Contact Material:Brass Contact Plating",
+    "DeviceName": "2.54-1*8P母环保",
+    "FootprintName": "HDR-TH_8P-P2.54-V-F"
+   },
+   "pinInfoMap": {
+    "1": {
+     "name": "1",
+     "number": "1",
+     "net": "ESP_GP5",
+     "props": {
+      "Pin Number": "1"
+     }
+    },
+    "2": {
+     "name": "2",
+     "number": "2",
+     "net": "ESP_GP6",
+     "props": {
+      "Pin Number": "2"
+     }
+    },
+    "3": {
+     "name": "3",
+     "number": "3",
+     "net": "ESP_GP7",
+     "props": {
+      "Pin Number": "3"
+     }
+    },
+    "4": {
+     "name": "4",
+     "number": "4",
+     "net": "ESP_GP8",
+     "props": {
+      "Pin Number": "4"
+     }
+    },
+    "5": {
+     "name": "5",
+     "number": "5",
+     "net": "ESP_GP9",
+     "props": {
+      "Pin Number": "5"
+     }
+    },
+    "6": {
+     "name": "6",
+     "number": "6",
+     "net": "ESP_GP10",
+     "props": {
+      "Pin Number": "6"
+     }
+    },
+    "7": {
+     "name": "7",
+     "number": "7",
+     "net": "ESP_GP20",
+     "props": {
+      "Pin Number": "7"
+     }
+    },
+    "8": {
+     "name": "8",
+     "number": "8",
+     "net": "ESP_GP21",
+     "props": {
+      "Pin Number": "8"
+     }
+    }
+   }
+  },
+  "gge5": {
+   "props": {
+    "Add into BOM": "yes",
+    "Convert to PCB": "yes",
+    "Symbol": "0a5ac411a5904ca8bafceda84b6620b4",
+    "Designator": "C1",
+    "Name": "={Value}",
+    "Device": "0705d3854af54074939d8f2a8e773784",
+    "Reuse Block": "",
+    "Group ID": "",
+    "Channel ID": "$1e1132",
+    "Unique ID": "gge5",
+    "LCSC Part Name": "1000uF ±20% 6.3V",
+    "Supplier Part": "C49256842",
+    "Manufacturer": "JIERR(捷而瑞)",
+    "Manufacturer Part": "JVJ6.3V1000M8X10",
+    "Supplier Footprint": "SMD,D8xL10.5mm",
+    "JLCPCB Part Class": "Extended Part",
+    "Supplier": "LCSC",
+    "Footprint": "a5e4dcea2d884459a20774ca264396f1",
+    "3D Model": "5f0b57ee676a4cf3821b9fb6482490b4",
+    "3D Model Title": "CAP-SMD_BD8.0-L8.3-W8.3-LS9.0-FD",
+    "3D Model Transform": "354.33,326.771,0,180,0,0,-0.003,-0.003,0",
+    "Value": "1000uF",
+    "Tolerance": "±20%",
+    "Voltage Rating": "6.3V",
+    "Ripple Current": "230mA@120Hz",
+    "Diameter": "8mm",
+    "Height - Seated (Max)": "10.5mm",
+    "Lifetime": "2000hrs@105℃",
+    "Operating Temperature": "-55℃~+105℃",
+    "Description": "Capacitance:1000uF Tolerance:±20% Tolerance:±20% Voltage Rating:6.3V Ripple Current:230mA@120Hz Diameter:8mm Height - Seated (Max):10.5mm Lifetime:2000hrs@105℃ Operating Temperature:-55℃~+105℃ Operating Temperature:-55℃~+105℃",
+    "DeviceName": "JVJ6.3V1000M8X10",
+    "FootprintName": "CAP-SMD_BD8.0-L8.3-W8.3-LS9.0-FD"
+   },
+   "pinInfoMap": {
+    "1": {
+     "name": "1",
+     "number": "1",
+     "net": "+5V",
+     "props": {
+      "Pin Number": "1"
+     }
+    },
+    "2": {
+     "name": "2",
+     "number": "2",
+     "net": "GND",
+     "props": {
+      "Pin Number": "2"
+     }
+    }
+   }
+  },
+  "gge6": {
+   "props": {
+    "Add into BOM": "yes",
+    "Convert to PCB": "yes",
+    "Symbol": "3fe3dea302694a21882d28587fa4e0af",
+    "Designator": "R1",
+    "Name": "={Value}",
+    "Device": "61d959d4cb7d4f8aa83d234f77099bf8",
+    "Reuse Block": "",
+    "Group ID": "",
+    "Channel ID": "$1e1239",
+    "Unique ID": "gge6",
+    "LCSC Part Name": "330Ω ±5% 125mW 厚膜电阻",
+    "Supplier Part": "C2907321",
+    "Manufacturer": "FOJAN(富捷)",
+    "Manufacturer Part": "FRC0805J331 TS",
+    "Supplier Footprint": "0805",
+    "JLCPCB Part Class": "Extended Part",
+    "Supplier": "LCSC",
+    "Footprint": "3af9b252ad9c42db8fb783f3dcab478d",
+    "3D Model": "b83c7c5430874b8eb2319a65d9433429",
+    "3D Model Title": "R0805_L2.0-W1.3-H0.6",
+    "3D Model Transform": "78.74,51.181,0,0,0,0,0,-0.0005,0",
+    "Type": "Thick Film Resistor",
+    "Value": "330Ω",
+    "Tolerance": "±5%",
+    "Power(Watts)": "125mW",
+    "Voltage-Supply(Max)": "150V",
+    "Temperature Coefficient": "±100ppm/℃",
+    "Operating Temperature": "-55℃~+155℃",
+    "Description": "Type:Thick Film Resistor Resistance:330Ω Tolerance:±5% Tolerance:±5% Power(Watts):125mW Voltage-Supply(Max):150V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+    "DeviceName": "FRC0805J331 TS",
+    "FootprintName": "R0805"
+   },
+   "pinInfoMap": {
+    "1": {
+     "name": "1",
+     "number": "1",
+     "net": "$1N1895",
+     "props": {
+      "Pin Number": "1"
+     }
+    },
+    "2": {
+     "name": "2",
+     "number": "2",
+     "net": "ESP_GP10",
+     "props": {
+      "Pin Number": "2"
+     }
+    }
+   }
+  },
+  "gge7": {
+   "props": {
+    "Add into BOM": "yes",
+    "Convert to PCB": "yes",
+    "Symbol": "e3d81afc0581476dafe419be775ec23a",
+    "Designator": "U1",
+    "Name": "={Manufacturer Part}",
+    "Device": "76d5127aa74a4734a39d002242ce1b32",
+    "Reuse Block": "",
+    "Group ID": "",
+    "Channel ID": "$1e1313",
+    "Unique ID": "gge7",
+    "LCSC Part Name": "光耦-光电晶体管输出",
+    "Supplier Part": "C20612591",
+    "Manufacturer": "AOTE(奥特)",
+    "Manufacturer Part": "PC817CS",
+    "Supplier Footprint": "SOP-4",
+    "JLCPCB Part Class": "Extended Part",
+    "Supplier": "LCSC",
+    "Footprint": "389e15aa15fc41eb9c907d25dfe2735c",
+    "3D Model": "341676288fe645f98a0f924c373ad36f",
+    "3D Model Title": "SOP-4_L6.5-W4.6-H3.4-LS10.0-P2.54",
+    "3D Model Transform": "181.102,393.7,0,0,0,0,0,0,0",
+    "Input type": "DC",
+    "Output Type": "Phototransistor",
+    "Voltage - Forward(Vf)": "1.2V",
+    "Output Current": "50mA",
+    "Isolation Voltage(Vrms)": "5kV",
+    "Reverse Voltage": "6V",
+    "Load Voltage": "80V",
+    "Number of Outputs": "1",
+    "Vce Saturation(VCE(sat))": "200mV@1mA,20mA",
+    "Rise time": "4us",
+    "Fall time": "3us",
+    "Operating Temperature": "-55℃~+110℃",
+    "Current Transfer Ratio (CTR) Minimum": "80%",
+    "Current Transfer Ratio (CTR) Maximum/Saturation Value": "600%",
+    "Forward Current(If)": "50mA",
+    "Description": "Input type:DC Output Type:Phototransistor Voltage - Forward(Vf):1.2V Output Current:50mA Isolation Voltage(Vrms):5kV Reverse Voltage:6V Load Voltage:80V Number of Outputs:1 Vce Saturation(VCE(sat)):200mV@1mA,20mA Rise time:4us Fall time:3us Operating Temp",
+    "DeviceName": "PC817CS",
+    "FootprintName": "SOP-4_L6.5-W4.6-P2.54-LS10.2-BL"
+   },
+   "pinInfoMap": {
+    "1": {
+     "name": "Anode",
+     "number": "1",
+     "net": "$1N1895",
+     "props": {
+      "Pin Number": "1"
+     }
+    },
+    "2": {
+     "name": "Cathode",
+     "number": "2",
+     "net": "GND",
+     "props": {
+      "Pin Number": "2"
+     }
+    },
+    "3": {
+     "name": "Emitter",
+     "number": "3",
+     "net": "$1N1911",
+     "props": {
+      "Pin Number": "3"
+     }
+    },
+    "4": {
+     "name": "Collector",
+     "number": "4",
+     "net": "$1N1904",
+     "props": {
+      "Pin Number": "4"
+     }
+    }
+   }
+  },
+  "gge8": {
+   "props": {
+    "Add into BOM": "yes",
+    "Convert to PCB": "yes",
+    "Symbol": "e1c3890e0fec476d8587337b675e797a",
+    "Designator": "U2",
+    "Name": "={Manufacturer Part}",
+    "Device": "be92d7cf5d2042678c5ec3c48a50ce42",
+    "Reuse Block": "",
+    "Group ID": "",
+    "Channel ID": "$1e1415",
+    "Unique ID": "gge8",
+    "LCSC Part Name": "4位双向电压电平转换器",
+    "Supplier Part": "C44955",
+    "Manufacturer": "TI(德州仪器)",
+    "Manufacturer Part": "TXS0104EPWR",
+    "Supplier Footprint": "TSSOP-14",
+    "JLCPCB Part Class": "Extended Part",
+    "Supplier": "LCSC",
+    "Footprint": "1f5342a0d08b419481ef24e24645ab8c",
+    "3D Model": "7b9d7b420d4a4df89ca820f7d1e45ec6",
+    "3D Model Title": "TSSOP-14_L5.0-W4.4-H1.0-LS6.4-P0.65",
+    "3D Model Transform": "237.007,196.85,0,90,0,0,0,0,0",
+    "Channel Type": "Bidirectional",
+    "Data Rate": "24Mbps",
+    "Voltage - Supply(VCCA)": "1.65V~3.6V",
+    "Voltage - Supply(VCCB)": "2.3V~5.5V",
+    "Number of Elements": "1",
+    "Number of Circuits": "4",
+    "Output Type": "Push-Pull；Open Drain",
+    "Operating Temperature": "-40℃~+85℃",
+    "Features": "Auto Direction Detection",
+    "Description": "Channel Type:Bidirectional Data Rate:24Mbps Voltage - Supply(VCCA):1.65V~3.6V Voltage - Supply(VCCA):1.65V~3.6V Voltage - Supply(VCCB):2.3V~5.5V Voltage - Supply(VCCB):2.3V~5.5V Number of Elements:1 Number of Circuits:4 Output Type:Push-Pull；Open Drain Op",
+    "DeviceName": "TXS0104EPWR",
+    "FootprintName": "TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL"
+   },
+   "pinInfoMap": {
+    "1": {
+     "name": "VCCA",
+     "number": "1",
+     "net": "3V3",
+     "props": {
+      "Pin Number": "1"
+     }
+    },
+    "2": {
+     "name": "A1",
+     "number": "2",
+     "net": "ESP_GP20",
+     "props": {
+      "Pin Number": "2"
+     }
+    },
+    "3": {
+     "name": "A2",
+     "number": "3",
+     "net": "ESP_GP21",
+     "props": {
+      "Pin Number": "3"
+     }
+    },
+    "4": {
+     "name": "A3",
+     "number": "4",
+     "net": "ESP_GP4",
+     "props": {
+      "Pin Number": "4"
+     }
+    },
+    "5": {
+     "name": "A4",
+     "number": "5",
+     "net": "ESP_GP5",
+     "props": {
+      "Pin Number": "5"
+     }
+    },
+    "6": {
+     "name": "NC",
+     "number": "6",
+     "net": "",
+     "props": {
+      "Pin Number": "6"
+     }
+    },
+    "7": {
+     "name": "GND",
+     "number": "7",
+     "net": "GND",
+     "props": {
+      "Pin Number": "7"
+     }
+    },
+    "8": {
+     "name": "OE",
+     "number": "8",
+     "net": "$1N3117",
+     "props": {
+      "Pin Number": "8"
+     }
+    },
+    "9": {
+     "name": "NC",
+     "number": "9",
+     "net": "",
+     "props": {
+      "Pin Number": "9"
+     }
+    },
+    "10": {
+     "name": "B4",
+     "number": "10",
+     "net": "J6",
+     "props": {
+      "Pin Number": "10"
+     }
+    },
+    "11": {
+     "name": "B3",
+     "number": "11",
+     "net": "J5",
+     "props": {
+      "Pin Number": "11"
+     }
+    },
+    "12": {
+     "name": "B2",
+     "number": "12",
+     "net": "J4",
+     "props": {
+      "Pin Number": "12"
+     }
+    },
+    "13": {
+     "name": "B1",
+     "number": "13",
+     "net": "J3",
+     "props": {
+      "Pin Number": "13"
+     }
+    },
+    "14": {
+     "name": "VCCB",
+     "number": "14",
+     "net": "+5V",
+     "props": {
+      "Pin Number": "14"
+     }
+    }
+   }
+  },
+  "gge9": {
+   "props": {
+    "Add into BOM": "yes",
+    "Convert to PCB": "yes",
+    "Symbol": "b98d512809d446de986ff249a169b0d8",
+    "Designator": "C2",
+    "Name": "={Value}",
+    "Device": "14b2aad2e16a47b4bbb3013d1b95e095",
+    "Reuse Block": "",
+    "Group ID": "",
+    "Channel ID": "$1e1490",
+    "Unique ID": "gge9",
+    "LCSC Part Name": "100nF ±10% 50V",
+    "Supplier Part": "C282519",
+    "Manufacturer": "CCTC(三环)",
+    "Manufacturer Part": "TCC0603X7R104K500CT",
+    "Supplier Footprint": "0603",
+    "JLCPCB Part Class": "Extended Part",
+    "Supplier": "LCSC",
+    "Footprint": "80c4085189b34e11ada71050cf60217a",
+    "3D Model": "624118aa3cc7497086c383c2d72e0852",
+    "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+    "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
+    "Value": "100nF",
+    "Tolerance": "±10%",
+    "Voltage Rating": "50V",
+    "Temperature Coefficient": "X7R",
+    "Description": "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R",
+    "DeviceName": "TCC0603X7R104K500CT",
+    "FootprintName": "C0603"
+   },
+   "pinInfoMap": {
+    "1": {
+     "name": "1",
+     "number": "1",
+     "net": "3V3",
+     "props": {
+      "Pin Number": "1"
+     }
+    },
+    "2": {
+     "name": "2",
+     "number": "2",
+     "net": "GND",
+     "props": {
+      "Pin Number": "2"
+     }
+    }
+   }
+  },
+  "gge10": {
+   "props": {
+    "Add into BOM": "yes",
+    "Convert to PCB": "yes",
+    "Symbol": "b98d512809d446de986ff249a169b0d8",
+    "Designator": "C3",
+    "Name": "={Value}",
+    "Device": "14b2aad2e16a47b4bbb3013d1b95e095",
+    "Reuse Block": "",
+    "Group ID": "",
+    "Channel ID": "$1e1524",
+    "Unique ID": "gge10",
+    "LCSC Part Name": "100nF ±10% 50V",
+    "Supplier Part": "C282519",
+    "Manufacturer": "CCTC(三环)",
+    "Manufacturer Part": "TCC0603X7R104K500CT",
+    "Supplier Footprint": "0603",
+    "JLCPCB Part Class": "Extended Part",
+    "Supplier": "LCSC",
+    "Footprint": "80c4085189b34e11ada71050cf60217a",
+    "3D Model": "624118aa3cc7497086c383c2d72e0852",
+    "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+    "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
+    "Value": "100nF",
+    "Tolerance": "±10%",
+    "Voltage Rating": "50V",
+    "Temperature Coefficient": "X7R",
+    "Description": "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R",
+    "DeviceName": "TCC0603X7R104K500CT",
+    "FootprintName": "C0603"
+   },
+   "pinInfoMap": {
+    "1": {
+     "name": "1",
+     "number": "1",
+     "net": "+5V",
+     "props": {
+      "Pin Number": "1"
+     }
+    },
+    "2": {
+     "name": "2",
+     "number": "2",
+     "net": "GND",
+     "props": {
+      "Pin Number": "2"
+     }
+    }
+   }
+  },
+  "gge11": {
+   "props": {
+    "Add into BOM": "yes",
+    "Convert to PCB": "yes",
+    "Symbol": "38daffde328644f6bed7bf079ed96542",
+    "Designator": "H3",
+    "Manufacturer Part": "J_CLICKER",
+    "Name": "={Manufacturer Part}",
+    "Device": "8254b371606a4d03aa768fbb7444a65f",
+    "Reuse Block": "",
+    "Group ID": "",
+    "Channel ID": "$1e1592",
+    "Unique ID": "gge11",
+    "LCSC Part Name": "1x2P 间距:2.54mm 方针 直插",
+    "Supplier Part": "C492401",
+    "Manufacturer": "XFCN(兴飞)",
+    "Supplier Footprint": "插件,P=2.54mm",
+    "JLCPCB Part Class": "Extended Part",
+    "Supplier": "LCSC",
+    "Footprint": "b8e405a583a647af80c46fc3aeb76754",
+    "3D Model": "b9a02bffb1e248eabf92e8e2aa859dc0",
+    "3D Model Title": "HDR2.54-M-LI-1X2P",
+    "3D Model Transform": "200,100,0,0,0,0,0,0,-118.11",
+    "Pin Structure": "1x2P",
+    "Pitch": "2.54mm",
+    "Row Spacing": "-",
+    "Circluar Pins/Square Pins": "Pin Header",
+    "Mounting Type": "Through Hole",
+    "Number of Rows": "1",
+    "Number of Pins": "2P",
+    "Current Rating": "3A",
+    "Voltage Rating (Max)": "250V",
+    "Length of Mating Pin": "6mm",
+    "Insulation Height": "2.5mm",
+    "Length of End Connection Pin": "3mm",
+    "Contact Material": "Brass",
+    "Contact Plating": "-",
+    "Operating Temperature": "-40℃~+105℃",
+    "Color": "Black",
+    "Description": "Pin Structure:1x2P Pitch:2.54mm Row Spacing:- Circluar Pins/Square Pins:Pin Header Mounting Type:Through Hole Number of Rows:1 Number of Pins:2P Current Rating:3A Voltage Rating (Max):250V Length of Mating Pin:6mm Insulation Height:2.5mm Length of End Con",
+    "DeviceName": "PZ254V-11-02P",
+    "FootprintName": "HDR-TH_2P-P2.54-V-M"
+   },
+   "pinInfoMap": {
+    "1": {
+     "name": "1",
+     "number": "1",
+     "net": "$1N1904",
+     "props": {
+      "Pin Number": "1"
+     }
+    },
+    "2": {
+     "name": "2",
+     "number": "2",
+     "net": "$1N1911",
+     "props": {
+      "Pin Number": "2"
+     }
+    }
+   }
+  },
+  "gge12": {
+   "props": {
+    "Add into BOM": "yes",
+    "Convert to PCB": "yes",
+    "Symbol": "be5125baeae847519f62e3219d15e3e3",
+    "Designator": "R2",
+    "Name": "={Value}",
+    "Device": "0375ff40b9f74539ba898ea6a697e258",
+    "Reuse Block": "",
+    "Group ID": "",
+    "Channel ID": "$1e3080",
+    "Unique ID": "gge12",
+    "LCSC Part Name": "厚膜电阻 10kΩ ±1% 100mW",
+    "Supplier Part": "C98220",
+    "Manufacturer": "YAGEO(国巨)",
+    "Manufacturer Part": "RC0603FR-0710KL",
+    "Supplier Footprint": "0603",
+    "JLCPCB Part Class": "Extended Part",
+    "Supplier": "LCSC",
+    "Footprint": "6d789cfc5bc84c579dd57a7e4279c717",
+    "3D Model": "112863783b5b41f1b5254f87eedc7932",
+    "3D Model Title": "R0603",
+    "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+    "Type": "Thick Film Resistors",
+    "Value": "10kΩ",
+    "Tolerance": "±1%",
+    "Power(Watts)": "",
+    "Overload Voltage (Max)": "",
+    "Temperature Coefficient": "±100ppm/℃",
+    "Operating Temperature Range": "-55℃~+155℃",
+    "Description": "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃",
+    "DeviceName": "RC0603FR-0710KL",
+    "FootprintName": "R0603"
+   },
+   "pinInfoMap": {
+    "1": {
+     "name": "1",
+     "number": "1",
+     "net": "$1N3117",
+     "props": {
+      "Pin Number": "1"
+     }
+    },
+    "2": {
+     "name": "2",
+     "number": "2",
+     "net": "3V3",
+     "props": {
+      "Pin Number": "2"
+     }
+    }
+   }
+  },
+  "gge13": {
+   "props": {
+    "Add into BOM": "yes",
+    "Convert to PCB": "yes",
+    "Symbol": "3b330da72e154138af85ad22d7d25146",
+    "Designator": "H4",
+    "Manufacturer Part": "DEBUG_HEADER",
+    "Name": "={Manufacturer Part}",
+    "Device": "12e26a3b521d46eeac1df0cfbcb0b43b",
+    "Reuse Block": "",
+    "Group ID": "",
+    "Channel ID": "$1e4108",
+    "Unique ID": "gge13",
+    "LCSC Part Name": "1x5P 间距:2.54mm 方针 直插",
+    "Supplier Part": "C492404",
+    "Manufacturer": "XFCN(兴飞)",
+    "Supplier Footprint": "插件,P=2.54mm",
+    "JLCPCB Part Class": "Extended Part",
+    "Supplier": "LCSC",
+    "Footprint": "c9949939c8204a62a9a963ac154f1648",
+    "3D Model": "98c612b43cbb479a86eae3328ff22ecc",
+    "3D Model Title": "HDR-TH_5P-P2.54-M-LI-1X5P",
+    "3D Model Transform": "499.999,100,0,0,0,0,0,0,-118.11",
+    "Pin Structure": "1x5P",
+    "Pitch": "2.54mm",
+    "Row Spacing": "-",
+    "Circluar Pins/Square Pins": "Pin Header",
+    "Mounting Type": "Through Hole",
+    "Number of Rows": "1",
+    "Number of Pins": "5P",
+    "Current Rating": "3A",
+    "Voltage Rating (Max)": "250V",
+    "Length of Mating Pin": "6mm",
+    "Insulation Height": "2.5mm",
+    "Length of End Connection Pin": "3mm",
+    "Contact Material": "Brass",
+    "Contact Plating": "-",
+    "Operating Temperature": "-40℃~+105℃",
+    "Color": "Black",
+    "Description": "Pin Structure:1x5P Pitch:2.54mm Row Spacing:- Circluar Pins/Square Pins:Pin Header Mounting Type:Through Hole Number of Rows:1 Number of Pins:5P Current Rating:3A Voltage Rating (Max):250V Length of Mating Pin:6mm Insulation Height:2.5mm Length of End Con",
+    "DeviceName": "PZ254V-11-05P",
+    "FootprintName": "HDR-TH_5P-P2.54-V-M"
+   },
+   "pinInfoMap": {
+    "1": {
+     "name": "1",
+     "number": "1",
+     "net": "GND",
+     "props": {
+      "Pin Number": "1"
+     }
+    },
+    "2": {
+     "name": "2",
+     "number": "2",
+     "net": "J3",
+     "props": {
+      "Pin Number": "2"
+     }
+    },
+    "3": {
+     "name": "3",
+     "number": "3",
+     "net": "J4",
+     "props": {
+      "Pin Number": "3"
+     }
+    },
+    "4": {
+     "name": "4",
+     "number": "4",
+     "net": "J5",
+     "props": {
+      "Pin Number": "4"
+     }
+    },
+    "5": {
+     "name": "5",
+     "number": "5",
+     "net": "J6",
+     "props": {
+      "Pin Number": "5"
+     }
+    }
+   }
+  },
+  "gge14": {
+   "props": {
+    "Add into BOM": "yes",
+    "Convert to PCB": "yes",
+    "Symbol": "a11293c4302949f2a8da1cf281d5077a",
+    "Designator": "H1",
+    "Manufacturer Part": "J_TO_SAUNA_M",
+    "Name": "={Manufacturer Part}",
+    "Device": "0a877f43d16a442ca49bbb6b826d8c6e",
+    "Reuse Block": "",
+    "Group ID": "",
+    "Channel ID": "$1e4296",
+    "Unique ID": "gge14",
+    "LCSC Part Name": "1x6P 间距:2.54mm 方针 弯插",
+    "Supplier Part": "C492414",
+    "Manufacturer": "XFCN(兴飞)",
+    "Supplier Footprint": "弯插,P=2.54mm",
+    "JLCPCB Part Class": "Extended Part",
+    "Supplier": "LCSC",
+    "Footprint": "2cfc97dc91804ccb8bc25c06fcff908a",
+    "3D Model": "40b68f65aa2842a88cd5d7fdbb2af731",
+    "3D Model Title": "HDR-TH_6P-P2.54-M-WI-1X6P",
+    "3D Model Transform": "599.9988,409.448,0,0,0,0,0,-190.945,-118.11",
+    "Pin Structure": "1x6P",
+    "Pitch": "2.54mm",
+    "Row Spacing": "-",
+    "Circluar Pins/Square Pins": "Pin Header",
+    "Mounting Type": "Right Angle",
+    "Number of Rows": "1",
+    "Number of Pins": "6P",
+    "Current Rating": "3A",
+    "Voltage Rating (Max)": "250V",
+    "Length of Mating Pin": "6mm",
+    "Insulation Height": "2.5mm",
+    "Length of End Connection Pin": "-",
+    "Contact Material": "Brass",
+    "Contact Plating": "-",
+    "Operating Temperature": "-40℃~+105℃",
+    "Color": "Black",
+    "Description": "Pin Structure:1x6P Pitch:2.54mm Row Spacing:- Circluar Pins/Square Pins:Pin Header Mounting Type:Right Angle Number of Rows:1 Number of Pins:6P Current Rating:3A Voltage Rating (Max):250V Length of Mating Pin:6mm Insulation Height:2.5mm Length of End Conn",
+    "DeviceName": "PZ254R-11-06P",
+    "FootprintName": "HDR-TH_6P-P2.54-H-M-W10.4"
+   },
+   "pinInfoMap": {
+    "1": {
+     "name": "1",
+     "number": "1",
+     "net": "+5V",
+     "props": {
+      "Pin Number": "1"
+     }
+    },
+    "2": {
+     "name": "2",
+     "number": "2",
+     "net": "GND",
+     "props": {
+      "Pin Number": "2"
+     }
+    },
+    "3": {
+     "name": "3",
+     "number": "3",
+     "net": "J3",
+     "props": {
+      "Pin Number": "3"
+     }
+    },
+    "4": {
+     "name": "4",
+     "number": "4",
+     "net": "J4",
+     "props": {
+      "Pin Number": "4"
+     }
+    },
+    "5": {
+     "name": "5",
+     "number": "5",
+     "net": "J5",
+     "props": {
+      "Pin Number": "5"
+     }
+    },
+    "6": {
+     "name": "6",
+     "number": "6",
+     "net": "J6",
+     "props": {
+      "Pin Number": "6"
+     }
+    }
+   }
+  },
+  "gge15": {
+   "props": {
+    "Add into BOM": "yes",
+    "Convert to PCB": "yes",
+    "Symbol": "e7f49353f58c43a9841160ecb7eeeece",
+    "Designator": "H2",
+    "Manufacturer Part": "J_TO_HARVIA_F",
+    "Name": "={Manufacturer Part}",
+    "Device": "dc85f085458b417b89cc46cc09cbfe0a",
+    "Reuse Block": "",
+    "Group ID": "",
+    "Channel ID": "$1e4482",
+    "Unique ID": "gge15",
+    "LCSC Part Name": "1x6P 间距:2.54mm 弯插",
+    "Supplier Part": "C2897388",
+    "Manufacturer": "HCTL(华灿天禄)",
+    "Supplier Footprint": "弯插,P=2.54mm",
+    "JLCPCB Part Class": "Extended Part",
+    "Supplier": "LCSC",
+    "Footprint": "6c6d2749b9694db5af7a819087c940d3",
+    "3D Model": "cddc1a67799243b1912d36ad5e2630c4",
+    "3D Model Title": "HDR-TH_6P-P2.54-H-F-W10.0-N",
+    "3D Model Transform": "619.684,401.574,0,0,0,0,0,-192.913,-125.984",
+    "Holes Structure": "1x6P",
+    "Pitch": "2.54mm",
+    "Row Spacing": "-",
+    "Circular Hole / Square Hole": "Square Hole",
+    "Mounting Type": "Right Angle",
+    "Number of Rows": "1",
+    "Number of Positions": "6P",
+    "Current Rating": "3A",
+    "Voltage Rating (Max)": "-",
+    "Holes Direction": "Side",
+    "Insulation Height": "8.5mm",
+    "Contact Material": "Copper Alloy",
+    "Operating Temperature": "-40℃~+105℃",
+    "Description": "Holes Structure:1x6P Pitch:2.54mm Row Spacing:- Circular Hole / Square Hole:Square Hole Mounting Type:Right Angle Number of Rows:1 Number of Positions:6P Current Rating:3A Voltage Rating (Max):- Holes Direction:Side Insulation Height:8.5mm Contact Materia",
+    "DeviceName": "PM254-1-06-W-8.5",
+    "FootprintName": "HDR-TH_6P-P2.54-H-F-W10.0-N"
+   },
+   "pinInfoMap": {
+    "1": {
+     "name": "1",
+     "number": "1",
+     "net": "+5V",
+     "props": {
+      "Pin Number": "1"
+     }
+    },
+    "2": {
+     "name": "2",
+     "number": "2",
+     "net": "GND",
+     "props": {
+      "Pin Number": "2"
+     }
+    },
+    "3": {
+     "name": "3",
+     "number": "3",
+     "net": "J3",
+     "props": {
+      "Pin Number": "3"
+     }
+    },
+    "4": {
+     "name": "4",
+     "number": "4",
+     "net": "J4",
+     "props": {
+      "Pin Number": "4"
+     }
+    },
+    "5": {
+     "name": "5",
+     "number": "5",
+     "net": "J5",
+     "props": {
+      "Pin Number": "5"
+     }
+    },
+    "6": {
+     "name": "6",
+     "number": "6",
+     "net": "J6",
+     "props": {
+      "Pin Number": "6"
+     }
+    }
+   }
+  }
+ },
+ "designRule": {
+  "trackPhysics": {
+   "copperThickness1oz": {
+    "name": "copperThickness1oz",
+    "isDefault": true,
+    "unit": "mm",
+    "strokeValue": {
+     "common": {
+      "min": 0.127,
+      "max": 2.54,
+      "default": 0.254
+     }
+    }
+   },
+   "copperThickness2oz": {
+    "name": "copperThickness2oz",
+    "isDefault": false,
+    "unit": "mm",
+    "strokeValue": {
+     "common": {
+      "min": 0.203,
+      "max": 2.54,
+      "default": 0.254
+     }
+    }
+   }
+  },
+  "netRule": {
+   "ESP_GP0": {
+    "net": "ESP_GP0",
+    "ruleMap": {
+     "TrackPhysics": ""
+    }
+   },
+   "ESP_GP1": {
+    "net": "ESP_GP1",
+    "ruleMap": {
+     "TrackPhysics": ""
+    }
+   },
+   "ESP_GP2": {
+    "net": "ESP_GP2",
+    "ruleMap": {
+     "TrackPhysics": ""
+    }
+   },
+   "ESP_GP3": {
+    "net": "ESP_GP3",
+    "ruleMap": {
+     "TrackPhysics": ""
+    }
+   },
+   "ESP_GP4": {
+    "net": "ESP_GP4",
+    "ruleMap": {
+     "TrackPhysics": ""
+    }
+   },
+   "+5V": {
+    "net": "+5V",
+    "ruleMap": {
+     "TrackPhysics": ""
+    }
+   },
+   "GND": {
+    "net": "GND",
+    "ruleMap": {
+     "TrackPhysics": ""
+    }
+   },
+   "ESP_GP9": {
+    "net": "ESP_GP9",
+    "ruleMap": {
+     "TrackPhysics": ""
+    }
+   },
+   "ESP_GP8": {
+    "net": "ESP_GP8",
+    "ruleMap": {
+     "TrackPhysics": ""
+    }
+   },
+   "ESP_GP7": {
+    "net": "ESP_GP7",
+    "ruleMap": {
+     "TrackPhysics": ""
+    }
+   },
+   "ESP_GP20": {
+    "net": "ESP_GP20",
+    "ruleMap": {
+     "TrackPhysics": ""
+    }
+   },
+   "ESP_GP10": {
+    "net": "ESP_GP10",
+    "ruleMap": {
+     "TrackPhysics": ""
+    }
+   },
+   "ESP_GP21": {
+    "net": "ESP_GP21",
+    "ruleMap": {
+     "TrackPhysics": ""
+    }
+   },
+   "ESP_GP6": {
+    "net": "ESP_GP6",
+    "ruleMap": {
+     "TrackPhysics": ""
+    }
+   },
+   "ESP_GP5": {
+    "net": "ESP_GP5",
+    "ruleMap": {
+     "TrackPhysics": ""
+    }
+   },
+   "3V3": {
+    "net": "3V3",
+    "ruleMap": {
+     "TrackPhysics": ""
+    }
+   },
+   "J3": {
+    "net": "J3",
+    "ruleMap": {
+     "TrackPhysics": ""
+    }
+   },
+   "J4": {
+    "net": "J4",
+    "ruleMap": {
+     "TrackPhysics": ""
+    }
+   },
+   "J5": {
+    "net": "J5",
+    "ruleMap": {
+     "TrackPhysics": ""
+    }
+   },
+   "J6": {
+    "net": "J6",
+    "ruleMap": {
+     "TrackPhysics": ""
+    }
+   },
+   "$1N1895": {
+    "net": "$1N1895",
+    "ruleMap": {
+     "TrackPhysics": ""
+    }
+   },
+   "$1N1904": {
+    "net": "$1N1904",
+    "ruleMap": {
+     "TrackPhysics": ""
+    }
+   },
+   "$1N1911": {
+    "net": "$1N1911",
+    "ruleMap": {
+     "TrackPhysics": ""
+    }
+   },
+   "$1N3117": {
+    "net": "$1N3117",
+    "ruleMap": {
+     "TrackPhysics": ""
+    }
+   }
+  }
+ },
+ "differentialPair": {},
+ "netClass": {},
+ "equalLengthNetGroup": {}
+}
